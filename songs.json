@@ -1,0 +1,56 @@
+{
+    "title": "list of songs",
+    "songs":[
+      
+        {
+            "id" : 1,
+            "genre": "pop",
+            "items":[
+               {
+                "url": "Multimedia/Loose_my_mind.mp3",
+                 "name": "Loose My Mind",
+                 "artist":"Don Toliver",
+                 "image": "./Multimedia/Lose_my_mind.jpg"
+               },
+            
+               {
+                 "url": "Multimedia/Sigma Boy.mp3",
+                 "name": "Sigma Boy",
+                 "artist":"Betsy",
+                 "image": "./Multimedia/Sigma_Boy.jpg"
+               },
+               {
+                 "url": "Multimedia/Señorita - Shawn Mendes.mp3",
+                 "name": "Senorita",
+                 "artist":"Shawn Mendes",
+                 "image": "Multimedia/senorita.jpg"
+               }
+            ]
+        },
+        {
+            "id" : 2,
+            "genre": "rock",
+            "items":[
+               
+               {
+                 "url": "Multimedia/Hoobastank - The Reason - The Reason.mp3",
+                 "name": "The Reason",
+                 "artist":"Hoobastank",
+                 "image": "./Multimedia/The_Reason.jpg"
+               },
+               {
+                 "url": "Multimedia/I Am The Black Wizards - Emperor.mp3",
+                 "name": "I am the black Wizards",
+                 "artist":"Kamil Chbeir",
+                 "image": "./Multimedia/I_am_a_Wizards.jpg"
+               },
+               {
+                 "url": "Multimedia/Eagles ft. Flashdance - Hotel california.mp3",
+                 "name": "Hotel California",
+                 "artist":"Eagles",
+                 "image": "./Multimedia/Hotel_California.jpg"
+               }
+            ]
+        }
+    ]
+}

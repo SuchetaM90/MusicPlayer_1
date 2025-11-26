@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="ico/png" href="./Multimedia/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+</head>
+<body>
+    <header>
+        <div class="heading" id="playerName">
+            <h2>Tune-e-fy</h2>
+        </div>
+        <section id="toggleTheme">
+            <i class="fa-solid fa-toggle-on" id="themeBtn"></i>
+            
+        </section>
+    </header>
+    <main>
+        <section id="allSongs">
+            <h2>Songs</h2>
+            <div id="songContainer">
+            <select id="genreSelect">
+            <option value="all" id="all">All Songs</option>
+            <option value="pop" id="pop">Pop</option>
+            <option value="rock" id="rock">Rock</option>
+            </select>
+            <ul id="songList"></ul>
+            </div>
+        </section>
+        <section id="songCard">
+            <div id="playSong"></div>
+        </section>
+        <section id="playList">
+            <div id="createPlaylist"></div>
+        </section>
+        
+    </main>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
